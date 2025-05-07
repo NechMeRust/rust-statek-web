@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import ONas from "./pages/ONas";
 import Cinnosti from "./pages/Cinnosti";
 import Kontakt from "./pages/Kontakt";
+import Eshop from "./pages/Eshop";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/o-nas" element={<ONas />} />
           <Route path="/cinnosti" element={<Cinnosti />} />
           <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/eshop" element={<Eshop />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

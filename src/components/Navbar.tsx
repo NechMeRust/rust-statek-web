@@ -53,6 +53,9 @@ const Navbar = () => {
           <Link to="/cinnosti" className="text-forest-800 hover:text-forest-600 font-medium">
             Naše Činnosti
           </Link>
+          <Link to="/eshop" className="text-forest-800 hover:text-forest-600 font-medium">
+            E-shop
+          </Link>
           <Link to="/kontakt" className="text-forest-800 hover:text-forest-600 font-medium">
             Kontakt
           </Link>
@@ -97,6 +100,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Naše Činnosti
+              </Link>
+              <Link
+                to="/eshop"
+                className="text-forest-800 hover:text-forest-600 font-medium py-2"
+                onClick={() => setIsOpen(false)}
+              >
+                E-shop
               </Link>
               <Link
                 to="/kontakt"
