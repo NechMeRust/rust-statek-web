@@ -1,3 +1,4 @@
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Heart, HandHeart, DollarSign } from "lucide-react";
@@ -10,6 +11,13 @@ const PodporteNas = () => {
       <section className="bg-gradient-to-b from-forest-50 to-white py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <img 
+                src="/lovable-uploads/af7e19d1-cae1-4890-809e-e0e1c2c10b3a.png" 
+                alt="Nech Mě Růst Logo" 
+                className="h-40 md:h-48" 
+              />
+            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-forest-900 mb-6">
               Podpořte nás
             </h1>
@@ -210,3 +218,4 @@ const PodporteNas = () => {
 };
 
 export default PodporteNas;
+

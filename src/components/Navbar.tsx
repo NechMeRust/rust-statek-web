@@ -39,7 +39,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src="/src/assets/logo.svg" alt="Nech Mě Růst Logo" className="h-12" />
+          <img 
+            src="/lovable-uploads/af7e19d1-cae1-4890-809e-e0e1c2c10b3a.png" 
+            alt="Nech Mě Růst Logo" 
+            className="h-12" 
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -134,3 +138,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
