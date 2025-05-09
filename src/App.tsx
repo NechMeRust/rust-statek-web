@@ -10,6 +10,7 @@ import ONas from "./pages/ONas";
 import Cinnosti from "./pages/Cinnosti";
 import Kontakt from "./pages/Kontakt";
 import Eshop from "./pages/Eshop";
+import PodporteNas from "./pages/PodporteNas";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/cinnosti" element={<Cinnosti />} />
           <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/eshop" element={<Eshop />} />
+          <Route path="/podporte-nas" element={<PodporteNas />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

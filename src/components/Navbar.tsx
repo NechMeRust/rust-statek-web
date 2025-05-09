@@ -59,9 +59,11 @@ const Navbar = () => {
           <Link to="/kontakt" className="text-forest-800 hover:text-forest-600 font-medium">
             Kontakt
           </Link>
-          <Button className="bg-forest-600 hover:bg-forest-700 text-white">
-            Podpořte nás
-          </Button>
+          <Link to="/podporte-nas">
+            <Button className="bg-forest-600 hover:bg-forest-700 text-white">
+              Podpořte nás
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Navigation Button */}
@@ -115,9 +117,14 @@ const Navbar = () => {
               >
                 Kontakt
               </Link>
-              <Button className="bg-forest-600 hover:bg-forest-700 text-white w-full">
-                Podpořte nás
-              </Button>
+              <Link
+                to="/podporte-nas"
+                onClick={() => setIsOpen(false)}
+              >
+                <Button className="bg-forest-600 hover:bg-forest-700 text-white w-full">
+                  Podpořte nás
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
