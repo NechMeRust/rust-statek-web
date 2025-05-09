@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Heart, HandHeart, DollarSign } from "lucide-react";
@@ -8,20 +7,20 @@ const PodporteNas = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-forest-50 to-white py-20 md:py-28">
+      <section className="bg-gradient-to-b from-forest-900 to-forest-800 py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <div className="flex justify-center mb-6">
               <img 
-                src="/lovable-uploads/af7e19d1-cae1-4890-809e-e0e1c2c10b3a.png" 
+                src="/lovable-uploads/0d0d4125-41a5-4ed5-9cd0-94943f191a7f.png" 
                 alt="Nech Mě Růst Logo" 
                 className="h-40 md:h-48" 
               />
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-forest-900 mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-amber-200 mb-6">
               Podpořte nás
             </h1>
-            <p className="text-xl text-forest-700">
+            <p className="text-xl text-amber-100">
               Vaše podpora nám pomáhá vytvářet bezpečný prostor lásky a harmonie pro lidi, zvířata i přírodu.
             </p>
           </div>
@@ -29,34 +28,34 @@ const PodporteNas = () => {
       </section>
 
       {/* Support Options */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-forest-800">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Financial Support */}
-              <div className="bg-forest-50 rounded-xl p-8 border border-forest-100 shadow-sm">
+              <div className="bg-forest-900 rounded-xl p-8 border border-amber-900/30 shadow-sm">
                 <div className="flex items-center mb-6">
-                  <DollarSign className="h-8 w-8 text-forest-600 mr-4" />
-                  <h2 className="text-2xl font-serif text-forest-800">Finanční podpora</h2>
+                  <DollarSign className="h-8 w-8 text-amber-300 mr-4" />
+                  <h2 className="text-2xl font-serif text-amber-200">Finanční podpora</h2>
                 </div>
                 
                 <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg border border-forest-100">
-                    <h3 className="text-lg font-medium text-forest-700 mb-2">Platba na účet</h3>
-                    <p className="text-forest-600 mb-3">
+                  <div className="bg-forest-800 p-6 rounded-lg border border-amber-900/20">
+                    <h3 className="text-lg font-medium text-amber-200 mb-2">Platba na účet</h3>
+                    <p className="text-amber-100 mb-3">
                       Můžete nás podpořit přímým převodem na náš transparentní účet:
                     </p>
-                    <div className="bg-forest-50 p-4 rounded-md font-medium text-forest-800 text-center mb-2">
+                    <div className="bg-forest-900 p-4 rounded-md font-medium text-amber-300 text-center mb-2">
                       2002645872 / 2010
                     </div>
-                    <p className="text-forest-500 text-sm">
+                    <p className="text-amber-100/80 text-sm">
                       Do zprávy pro příjemce uveďte "Dar" a případně svůj email pro zaslání potvrzení.
                     </p>
                   </div>
 
-                  <div className="bg-white p-6 rounded-lg border border-forest-100">
-                    <h3 className="text-lg font-medium text-forest-700 mb-2">Darujme.cz</h3>
-                    <p className="text-forest-600 mb-4">
+                  <div className="bg-forest-800 p-6 rounded-lg border border-amber-900/20">
+                    <h3 className="text-lg font-medium text-amber-200 mb-2">Darujme.cz</h3>
+                    <p className="text-amber-100 mb-4">
                       Preferujete-li platbu kartou, můžete využít portál Darujme.cz:
                     </p>
                     <a 
@@ -65,7 +64,7 @@ const PodporteNas = () => {
                       rel="noopener noreferrer"
                       className="block"
                     >
-                      <Button className="w-full bg-forest-600 hover:bg-forest-700 text-white">
+                      <Button className="w-full bg-amber-300 hover:bg-amber-400 text-forest-900">
                         <Heart className="mr-2 h-5 w-5" />
                         Přispět přes Darujme.cz
                       </Button>
@@ -82,34 +81,34 @@ const PodporteNas = () => {
               </div>
 
               {/* Other Ways to Help */}
-              <div className="bg-forest-50 rounded-xl p-8 border border-forest-100 shadow-sm">
+              <div className="bg-forest-900 rounded-xl p-8 border border-amber-900/30 shadow-sm">
                 <div className="flex items-center mb-6">
-                  <HandHeart className="h-8 w-8 text-forest-600 mr-4" />
-                  <h2 className="text-2xl font-serif text-forest-800">Další možnosti podpory</h2>
+                  <HandHeart className="h-8 w-8 text-amber-300 mr-4" />
+                  <h2 className="text-2xl font-serif text-amber-200">Další možnosti podpory</h2>
                 </div>
 
                 <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg border border-forest-100">
-                    <h3 className="text-lg font-medium text-forest-700 mb-2">Dobrovolnictví</h3>
-                    <p className="text-forest-600 mb-4">
+                  <div className="bg-forest-800 p-6 rounded-lg border border-amber-900/20">
+                    <h3 className="text-lg font-medium text-amber-200 mb-2">Dobrovolnictví</h3>
+                    <p className="text-amber-100 mb-4">
                       Pojďte nám pomoct s péčí o zvířata, stavebními projekty nebo organizací akcí.
                       Vaše ruce a srdce jsou pro nás nenahraditelné.
                     </p>
                     <Link to="/kontakt">
-                      <Button className="w-full bg-forest-600 hover:bg-forest-700 text-white">
+                      <Button className="w-full bg-amber-300 hover:bg-amber-400 text-forest-900">
                         Kontaktujte nás
                       </Button>
                     </Link>
                   </div>
 
-                  <div className="bg-white p-6 rounded-lg border border-forest-100">
-                    <h3 className="text-lg font-medium text-forest-700 mb-2">Materiální dary</h3>
-                    <p className="text-forest-600">
+                  <div className="bg-forest-800 p-6 rounded-lg border border-amber-900/20">
+                    <h3 className="text-lg font-medium text-amber-200 mb-2">Materiální dary</h3>
+                    <p className="text-amber-100">
                       Potřebujeme krmivo pro zvířata, stavební materiály, nářadí a další. 
                       Napište nám, s čím byste mohli pomoci.
                     </p>
-                    <p className="text-forest-800 font-medium mt-2">
-                      Email: <a href="mailto:nechmerust@gmail.com" className="text-forest-600 hover:underline">nechmerust@gmail.com</a>
+                    <p className="text-amber-200 font-medium mt-2">
+                      Email: <a href="mailto:nechmerust@gmail.com" className="text-amber-300 hover:underline">nechmerust@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -118,16 +117,16 @@ const PodporteNas = () => {
 
             {/* Gratitude Section */}
             <div className="mt-16 text-center">
-              <h2 className="text-3xl font-serif text-forest-800 mb-6">Děkujeme za vaši podporu</h2>
-              <p className="text-xl text-forest-700 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-serif text-amber-200 mb-6">Děkujeme za vaši podporu</h2>
+              <p className="text-xl text-amber-100 max-w-3xl mx-auto">
                 Každý dar, ať finanční nebo v podobě vašeho času či dovedností, nám pomáhá budovat místo,
                 kde může vše živé růst a vzkvétat v harmonii s přírodou i sebou samým.
               </p>
             </div>
 
             {/* Social Media */}
-            <div className="mt-16 bg-forest-50 p-8 rounded-xl border border-forest-100">
-              <h3 className="text-2xl font-serif text-forest-800 text-center mb-6">
+            <div className="mt-16 bg-forest-900 p-8 rounded-xl border border-amber-900/30">
+              <h3 className="text-2xl font-serif text-amber-200 text-center mb-6">
                 Sledujte naši cestu
               </h3>
               <div className="flex flex-col md:flex-row justify-center items-center gap-6">
@@ -135,7 +134,7 @@ const PodporteNas = () => {
                   href="https://www.instagram.com/nech_me_rust" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center bg-white px-6 py-4 rounded-lg border border-forest-100 hover:bg-forest-100 transition-colors"
+                  className="flex items-center bg-forest-800 px-6 py-4 rounded-lg border border-amber-900/20 hover:bg-forest-700 transition-colors"
                 >
                   <div className="h-10 w-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-purple-600 via-pink-500 to-orange-400 text-white mr-4">
                     <svg
@@ -152,8 +151,8 @@ const PodporteNas = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-forest-700 font-medium">Instagram</p>
-                    <p className="text-forest-500 text-sm">@nech_me_rust</p>
+                    <p className="text-amber-200 font-medium">Instagram</p>
+                    <p className="text-amber-100/80 text-sm">@nech_me_rust</p>
                   </div>
                 </a>
                 
@@ -161,7 +160,7 @@ const PodporteNas = () => {
                   href="https://www.facebook.com/share/1ANYWPEwEz/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center bg-white px-6 py-4 rounded-lg border border-forest-100 hover:bg-forest-100 transition-colors"
+                  className="flex items-center bg-forest-800 px-6 py-4 rounded-lg border border-amber-900/20 hover:bg-forest-700 transition-colors"
                 >
                   <div className="h-10 w-10 flex items-center justify-center rounded-full bg-blue-600 text-white mr-4">
                     <svg
@@ -178,16 +177,16 @@ const PodporteNas = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-forest-700 font-medium">Facebook</p>
-                    <p className="text-forest-500 text-sm">Nech Mě Růst</p>
+                    <p className="text-amber-200 font-medium">Facebook</p>
+                    <p className="text-amber-100/80 text-sm">Nech Mě Růst</p>
                   </div>
                 </a>
                 
                 <a 
                   href="mailto:nechmerust@gmail.com" 
-                  className="flex items-center bg-white px-6 py-4 rounded-lg border border-forest-100 hover:bg-forest-100 transition-colors"
+                  className="flex items-center bg-forest-800 px-6 py-4 rounded-lg border border-amber-900/20 hover:bg-forest-700 transition-colors"
                 >
-                  <div className="h-10 w-10 flex items-center justify-center rounded-full bg-forest-600 text-white mr-4">
+                  <div className="h-10 w-10 flex items-center justify-center rounded-full bg-amber-300 text-forest-900 mr-4">
                     <svg 
                       className="h-5 w-5" 
                       fill="none" 
@@ -204,8 +203,8 @@ const PodporteNas = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-forest-700 font-medium">Email</p>
-                    <p className="text-forest-500 text-sm">nechmerust@gmail.com</p>
+                    <p className="text-amber-200 font-medium">Email</p>
+                    <p className="text-amber-100/80 text-sm">nechmerust@gmail.com</p>
                   </div>
                 </a>
               </div>
@@ -218,4 +217,3 @@ const PodporteNas = () => {
 };
 
 export default PodporteNas;
-
