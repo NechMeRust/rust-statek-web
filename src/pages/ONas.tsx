@@ -26,25 +26,24 @@ const ONas = () => {
   return (
     <Layout>
       {/* Hero Banner */}
-      <section className="bg-gradient-to-b from-forest-50 to-white py-20 md:py-28">
+      <section className="bg-gradient-to-b from-forest-900 to-forest-800 py-20 md:py-28">
         <div className="section-container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-forest-900 mb-6">O nás</h1>
-            <p className="text-xl text-forest-700">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-amber-200 mb-6">O nás</h1>
+            <p className="text-xl text-amber-100">
               Poznejte spolek Nech Mě Růst, naši vizi a poslání, i příběh, který nás přivedl až sem.
             </p>
           </div>
         </div>
-        <div className="wave-divider w-full absolute bottom-0 left-0"></div>
       </section>
 
       {/* Our Story Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-forest-800">
         <div className="section-container">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             <div className="lg:col-span-3 space-y-6">
-              <h2 className="section-title">Náš příběh</h2>
-              <div className="prose prose-forest text-forest-700 max-w-none">
+              <h2 className="section-heading">Náš příběh</h2>
+              <div className="text-amber-100/90 space-y-4">
                 <p>
                   Spolek Nech Mě Růst vznikl z touhy vytvořit místo, kde by všechny živé bytosti mohly žít v harmonii a vzájemném respektu. Vše začalo před několika lety, když se skupina přátel rozhodla, že chtějí žít jinak - blíže k přírodě, blíže k sobě navzájem a v souladu s udržitelnými principy.
                 </p>
@@ -60,9 +59,9 @@ const ONas = () => {
             <div className="lg:col-span-2">
               <div className="relative">
                 {/* Placeholder for story image */}
-                <div className="aspect-square bg-forest-100 rounded-tr-3xl rounded-bl-3xl overflow-hidden">
-                  <div className="h-full w-full bg-gradient-to-br from-forest-100 to-forest-200 flex items-center justify-center">
-                    <p className="text-forest-500 text-lg">Obrázek z historie spolku</p>
+                <div className="aspect-square bg-forest-700 rounded-tr-3xl rounded-bl-3xl overflow-hidden">
+                  <div className="h-full w-full bg-gradient-to-br from-forest-800 to-forest-700 flex items-center justify-center">
+                    <p className="text-amber-200/70 text-lg">Obrázek z historie spolku</p>
                   </div>
                 </div>
               </div>
@@ -72,55 +71,57 @@ const ONas = () => {
       </section>
 
       {/* Vision and Mission */}
-      <section className="py-16 md:py-24 bg-forest-50">
+      <section className="py-16 md:py-24 bg-forest-900">
         <div className="section-container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="relative">
                 {/* Placeholder for vision image */}
-                <div className="aspect-[4/3] bg-forest-100 natural-image overflow-hidden">
-                  <div className="h-full w-full bg-gradient-to-br from-forest-200 to-forest-300 flex items-center justify-center">
-                    <p className="text-forest-500 text-lg">Vizualizace rodového statku</p>
+                <div className="aspect-[4/3] bg-forest-700 natural-image overflow-hidden">
+                  <div className="h-full w-full bg-gradient-to-br from-forest-700 to-forest-800 flex items-center justify-center">
+                    <p className="text-amber-200/70 text-lg">Vizualizace rodového statku</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-serif text-forest-800">Naše vize a poslání</h2>
-              <p className="text-forest-700">
-                Naší vizí je vytvořit rodový statek jako živý organismus, kde všechny části - lidé, zvířata, rostliny i stavby - koexistují v harmonii a vzájemně se podporují ve svém růstu.
-              </p>
-              <p className="text-forest-700">
-                Věříme, že způsob, jakým žijeme a jak zacházíme se světem kolem nás, má hluboký dopad na naše blaho i na zdraví celé planety. Proto se snažíme žít vědomě, s úctou k tradičním hodnotám, ale i s otevřeností k novým, udržitelným přístupům.
-              </p>
-              <p className="text-forest-700">
-                Naším posláním je nejen vytvářet takové prostředí pro nás samotné, ale také inspirovat ostatní, sdílet naše zkušenosti a znalosti, a tím přispívat k širší společenské transformaci směrem k harmoničtějšímu vztahu s naším prostředím.
-              </p>
+              <h2 className="section-heading">Naše vize a poslání</h2>
+              <div className="space-y-4 text-amber-100/90">
+                <p>
+                  Naší vizí je vytvořit rodový statek jako živý organismus, kde všechny části - lidé, zvířata, rostliny i stavby - koexistují v harmonii a vzájemně se podporují ve svém růstu.
+                </p>
+                <p>
+                  Věříme, že způsob, jakým žijeme a jak zacházíme se světem kolem nás, má hluboký dopad na naše blaho i na zdraví celé planety. Proto se snažíme žít vědomě, s úctou k tradičním hodnotám, ale i s otevřeností k novým, udržitelným přístupům.
+                </p>
+                <p>
+                  Naším posláním je nejen vytvářet takové prostředí pro nás samotné, ale také inspirovat ostatní, sdílet naše zkušenosti a znalosti, a tím přispívat k širší společenské transformaci směrem k harmoničtějšímu vztahu s naším prostředím.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Our Team */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-forest-800">
         <div className="section-container">
           <div className="text-center mb-16">
-            <h2 className="section-title">Náš tým</h2>
-            <p className="section-subtitle mx-auto">
+            <h2 className="section-heading">Náš tým</h2>
+            <p className="text-amber-100/90 text-xl mx-auto max-w-3xl">
               Poznejte lidi, kteří stojí za spolkem Nech Mě Růst a každý den přispívají k naší společné vizi.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md border border-forest-100 hover:shadow-lg transition-shadow">
-                <div className="h-64 bg-forest-100 flex items-center justify-center">
-                  <p className="text-forest-500">Fotografie člena týmu</p>
+              <div key={index} className="content-inner-card">
+                <div className="h-64 bg-forest-700 flex items-center justify-center">
+                  <p className="text-amber-200/70">Fotografie člena týmu</p>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-medium mb-1 text-forest-800">{member.name}</h3>
-                  <p className="text-forest-600 font-medium mb-3">{member.role}</p>
-                  <p className="text-forest-600">{member.description}</p>
+                  <h3 className="text-xl font-medium mb-1 text-amber-200">{member.name}</h3>
+                  <p className="text-amber-100/80 font-medium mb-3">{member.role}</p>
+                  <p className="text-amber-100/70">{member.description}</p>
                 </div>
               </div>
             ))}
@@ -129,42 +130,42 @@ const ONas = () => {
       </section>
 
       {/* Rodovy Statek */}
-      <section className="py-16 md:py-24 bg-earth-50">
+      <section className="py-16 md:py-24 bg-forest-900">
         <div className="section-container">
           <div className="text-center mb-16">
-            <h2 className="section-title">Rodový statek</h2>
-            <p className="section-subtitle mx-auto">
+            <h2 className="section-heading">Rodový statek</h2>
+            <p className="text-amber-100/90 text-xl mx-auto max-w-3xl">
               Náš rodový statek je místem, kde se spojuje minulost s budoucností, tradice s inovacemi, a kde vytváříme odkaz pro další generace.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center text-center p-8 bg-white rounded-lg shadow-md border border-earth-100">
-              <div className="h-16 w-16 rounded-full bg-earth-100 flex items-center justify-center mb-4">
-                <p className="text-earth-700 text-xl">1</p>
+            <div className="flex flex-col items-center text-center p-8 content-inner-card">
+              <div className="h-16 w-16 rounded-full bg-amber-900/30 flex items-center justify-center mb-4">
+                <p className="text-amber-200 text-xl">1</p>
               </div>
-              <h3 className="text-xl font-medium mb-3 text-forest-800">Současný stav</h3>
-              <p className="text-forest-600">
+              <h3 className="text-xl font-medium mb-3 text-amber-200">Současný stav</h3>
+              <p className="text-amber-100/70">
                 V současnosti máme několik dokončených staveb postavených přírodními technikami, zahradu s permakulturními principy a útočiště pro zvířata v nouzi.
               </p>
             </div>
 
-            <div className="flex flex-col items-center text-center p-8 bg-white rounded-lg shadow-md border border-earth-100">
-              <div className="h-16 w-16 rounded-full bg-earth-100 flex items-center justify-center mb-4">
-                <p className="text-earth-700 text-xl">2</p>
+            <div className="flex flex-col items-center text-center p-8 content-inner-card">
+              <div className="h-16 w-16 rounded-full bg-amber-900/30 flex items-center justify-center mb-4">
+                <p className="text-amber-200 text-xl">2</p>
               </div>
-              <h3 className="text-xl font-medium mb-3 text-forest-800">Filosofie statku</h3>
-              <p className="text-forest-600">
+              <h3 className="text-xl font-medium mb-3 text-amber-200">Filosofie statku</h3>
+              <p className="text-amber-100/70">
                 Náš statek chápeme jako živý organismus, kde má každý element svou roli a přispívá k celkové rovnováze. Snažíme se o maximální udržitelnost a soběstačnost.
               </p>
             </div>
 
-            <div className="flex flex-col items-center text-center p-8 bg-white rounded-lg shadow-md border border-earth-100">
-              <div className="h-16 w-16 rounded-full bg-earth-100 flex items-center justify-center mb-4">
-                <p className="text-earth-700 text-xl">3</p>
+            <div className="flex flex-col items-center text-center p-8 content-inner-card">
+              <div className="h-16 w-16 rounded-full bg-amber-900/30 flex items-center justify-center mb-4">
+                <p className="text-amber-200 text-xl">3</p>
               </div>
-              <h3 className="text-xl font-medium mb-3 text-forest-800">Budoucí plány</h3>
-              <p className="text-forest-600">
+              <h3 className="text-xl font-medium mb-3 text-amber-200">Budoucí plány</h3>
+              <p className="text-amber-100/70">
                 Plánujeme rozšířit naše prostory, vybudovat komunitní centrum pro workshopy a vytvořit další útočiště pro zvířata s potřebou speciální péče.
               </p>
             </div>
@@ -173,22 +174,22 @@ const ONas = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-forest-50 via-forest-100 to-forest-50">
+      <section className="py-16 md:py-24 bg-gradient-to-br from-forest-900 via-forest-800 to-forest-900">
         <div className="section-container">
           <div className="text-center max-w-3xl mx-auto space-y-6">
-            <h2 className="text-3xl md:text-4xl font-serif text-forest-800">Staňte se součástí naší cesty</h2>
-            <p className="text-xl text-forest-700">
+            <h2 className="section-heading">Staňte se součástí naší cesty</h2>
+            <p className="text-xl text-amber-100/90">
               Pojďte s námi tvořit prostor, kde může vše živé růst a vzkvétat v harmonii a lásce. Existuje mnoho způsobů, jak se můžete zapojit.
             </p>
             <div className="flex flex-wrap justify-center gap-4 pt-6">
               <Link to="/cinnosti">
-                <Button size="lg" className="bg-forest-600 hover:bg-forest-700 text-white">
+                <Button size="lg" className="amber-button">
                   Prozkoumat naše činnosti
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
               <Link to="/kontakt">
-                <Button size="lg" variant="outline" className="border-forest-300 text-forest-700 hover:bg-forest-50">
+                <Button size="lg" variant="outline" className="border-amber-800/50 text-amber-100 hover:bg-forest-700">
                   Kontaktovat nás
                 </Button>
               </Link>
