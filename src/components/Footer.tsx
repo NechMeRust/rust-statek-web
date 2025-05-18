@@ -89,13 +89,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-forest-600 mr-3 mt-0.5" />
-                <span className="text-forest-700">info@nechmrust.cz</span>
+                <span className="text-forest-700">nechmerust@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Home className="h-5 w-5 text-forest-600 mr-3 mt-0.5" />
                 <span className="text-forest-700">
-                  Rodový statek Nech Mě Růst<br />
-                  Jižní Čechy<br />
+                  Nech Mě Růst z.s.<br />
+                  Vlkaneč<br />
                   Česká republika
                 </span>
               </li>
