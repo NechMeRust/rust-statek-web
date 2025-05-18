@@ -16,7 +16,9 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-6">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1AkbXrhiRC/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-10 w-10 flex items-center justify-center rounded-full bg-forest-100 text-forest-600 hover:bg-forest-200 transition-colors"
               >
                 <span className="sr-only">Facebook</span>
@@ -34,7 +36,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/nech_me_rust?igsh=azM4ZTZwOHJ5MnNl"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-10 w-10 flex items-center justify-center rounded-full bg-forest-100 text-forest-600 hover:bg-forest-200 transition-colors"
               >
                 <span className="sr-only">Instagram</span>
