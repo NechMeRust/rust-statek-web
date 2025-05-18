@@ -46,9 +46,15 @@ const Index = () => {
                 <Button size="lg" className="amber-button">
                   Zjistit více
                 </Button>
-                <Button size="lg" variant="outline" className="border-amber-800/50 text-amber-100 hover:bg-forest-700">
-                  Podpořte nás
-                </Button>
+                <Link to="/podporte-nas">
+                  <Button 
+                    size="lg" 
+                    variant="outline" 
+                    className="border-amber-400 bg-forest-700/50 text-amber-200 hover:bg-forest-600 hover:text-amber-100"
+                  >
+                    Podpořte nás
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="hidden md:block relative animate-fade-in-slow">
@@ -215,9 +221,15 @@ const Index = () => {
               <Button size="lg" className="amber-button">
                 Chci pomoci
               </Button>
-              <Button size="lg" variant="outline" className="border-amber-800/50 text-amber-100 hover:bg-forest-700">
-                Kontaktovat nás
-              </Button>
+              <Link to="/podporte-nas">
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="border-amber-400 bg-forest-700/50 text-amber-200 hover:bg-forest-600 hover:text-amber-100"
+                >
+                  Kontaktovat nás
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
