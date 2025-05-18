@@ -71,7 +71,7 @@ const Kontakt = () => {
                   <Mail className="h-6 w-6 text-forest-600 mt-0.5" />
                   <div>
                     <h3 className="font-medium text-forest-800">Email</h3>
-                    <p className="text-forest-700">info@nechmrust.cz</p>
+                    <p className="text-forest-700">nechmerust@gmail.com</p>
                   </div>
                 </div>
 
@@ -79,7 +79,7 @@ const Kontakt = () => {
                   <Phone className="h-6 w-6 text-forest-600 mt-0.5" />
                   <div>
                     <h3 className="font-medium text-forest-800">Telefon</h3>
-                    <p className="text-forest-700">+420 XXX XXX XXX</p>
+                    <p className="text-forest-700">+420 722 040 604</p>
                   </div>
                 </div>
 
@@ -88,8 +88,8 @@ const Kontakt = () => {
                   <div>
                     <h3 className="font-medium text-forest-800">Adresa</h3>
                     <p className="text-forest-700">
-                      Rodový statek Nech Mě Růst<br />
-                      Jižní Čechy<br />
+                      Nech Mě Růst<br />
+                      Vlkaneč<br />
                       Česká republika
                     </p>
                   </div>
@@ -99,8 +99,8 @@ const Kontakt = () => {
                   <Heart className="h-6 w-6 text-forest-600 mt-0.5" />
                   <div>
                     <h3 className="font-medium text-forest-800">Bankovní spojení pro dary</h3>
-                    <p className="text-forest-700">XXXXXXXXXXXX/XXXX</p>
-                    <p className="text-forest-700 text-sm mt-1">IČO: XX XXX XXX</p>
+                    <p className="text-forest-700">2002645872/2010</p>
+                    <p className="text-forest-700 text-sm mt-1">IČO: 19 602 529</p>
                   </div>
                 </div>
               </div>
@@ -219,7 +219,7 @@ const Kontakt = () => {
           <div className="text-center mb-16">
             <h2 className="section-title">Kde nás najdete</h2>
             <p className="section-subtitle mx-auto">
-              Náš rodový statek se nachází v krásné přírodě jižních Čech.
+              Náš rodový statek se nachází v krásné přírodě na pomezí Středních Čech a kraje Vysočina.
             </p>
           </div>
 
