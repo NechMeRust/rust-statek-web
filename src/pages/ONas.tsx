@@ -7,19 +7,20 @@ import { ArrowRight } from 'lucide-react';
 const ONas = () => {
   const team = [
     {
-      name: 'Jana Nováková',
-      role: 'Zakladatelka',
-      description: 'Jana založila Nech Mě Růst z hluboké lásky k přírodě a zvířatům. Její vize vytváří směr a energii našeho společenství.',
+      name: 'Tomáš Bahník,
+      role: 'Zakladatel',
+      description: 'Tom založil Nech Mě Růst z hluboké lásky k přírodě a zvířatům. Jeho vize vytváří směr a energii našeho společenství.',
     },
     {
-      name: 'Petr Svoboda',
+      name: '',
       role: 'Přírodní stavitel',
-      description: 'Petr má více než 10 let zkušeností s přírodním stavitelstvím a vede všechny naše stavební projekty.',
+      description: 'Petr
+ má vce ne 10 lt zkuenost s přrodní stavtelstvím a vede všechny naše stavební projekty.',
     },
     {
-      name: 'Marie Horská',
+      name: '',
       role: 'Péče o zvířata',
-      description: 'Marie se stará o všechna zvířata na našem statku. Její láska a péče pomáhá uzdravovat i ta nejtraumatizovanější zvířata.',
+      description: ' se stará o všechna zvířata na našem statku. Její láska a péče pomáhá uzdravovat i ta nejtraumatizovanější zvířata.',
     },
   ];
 
