@@ -86,6 +86,31 @@
   .button-secondary {
     @apply bg-earth-100 hover:bg-earth-200 text-earth-800 py-3 px-6 rounded-md font-medium transition-colors;
   }
+
+  /* New components for Podpořte Nás styling consistency */
+  .hero-section {
+    @apply bg-gradient-to-b from-forest-900 to-forest-800 py-20 md:py-28;
+  }
+  
+  .content-card {
+    @apply bg-forest-900 rounded-xl p-8 border border-amber-900/30 shadow-sm;
+  }
+  
+  .content-inner-card {
+    @apply bg-forest-800 p-6 rounded-lg border border-amber-900/20;
+  }
+  
+  .amber-button {
+    @apply bg-amber-300 hover:bg-amber-400 text-forest-900;
+  }
+  
+  .forest-button {
+    @apply bg-forest-600 hover:bg-forest-700 text-white;
+  }
+  
+  .section-heading {
+    @apply text-2xl font-serif text-amber-200;
+  }
 }
 
 .natural-image {
@@ -140,4 +165,25 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+
+/* Styling for amber gold text that's visible against dark backgrounds */
+.amber-text {
+  @apply text-amber-200;
+}
+
+.amber-text-light {
+  @apply text-amber-100;
+}
+
+.forest-bg-gradient {
+  @apply bg-gradient-to-b from-forest-900 to-forest-800;
+}
+
+.forest-bg {
+  @apply bg-forest-900;
+}
+
+.forest-bg-light {
+  @apply bg-forest-800;
 }
