@@ -44,11 +44,11 @@ const Kontakt = () => {
   return (
     <Layout>
       {/* Hero Banner */}
-      <section className="bg-gradient-to-b from-forest-50 to-white py-20 md:py-28">
+      <section className="hero-section py-20 md:py-28">
         <div className="section-container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-forest-900 mb-6">Kontaktujte nás</h1>
-            <p className="text-xl text-forest-700">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-amber-100 mb-6">Kontaktujte nás</h1>
+            <p className="text-xl text-amber-200">
               Ozvěte se nám s dotazy, náměty nebo pokud se chcete zapojit do činnosti spolku Nech Mě Růst.
             </p>
           </div>
@@ -88,7 +88,7 @@ const Kontakt = () => {
                   <div>
                     <h3 className="font-medium text-forest-800">Adresa</h3>
                     <p className="text-forest-700">
-                      Nech Mě Růst<br />
+                      Nech Mě Růst z.s.<br />
                       Vlkaneč<br />
                       Česká republika
                     </p>
@@ -108,7 +108,7 @@ const Kontakt = () => {
 
             <div className="lg:col-span-3">
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-md border border-forest-100">
-                <h2 className="text-2xl md:text-3xl font-serif text-forest-800 mb-6">Napište nám</h2>
+                <h2 className="text-2xl md:text-3xl font-serif text-forest-800 mb-6">Kontaktní formulář</h2>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -195,7 +195,7 @@ const Kontakt = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-forest-600 hover:bg-forest-700 text-white flex items-center justify-center py-3"
+                    className="w-full forest-button py-3 flex items-center justify-center"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
@@ -224,7 +224,6 @@ const Kontakt = () => {
           </div>
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            {/* Placeholder for map - in real implementation this would be replaced by an actual map */}
             <div className="aspect-[16/9] bg-forest-100 flex items-center justify-center">
               <p className="text-forest-600 text-lg">Interaktivní mapa bude zde</p>
             </div>
@@ -233,11 +232,11 @@ const Kontakt = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-forest-50 via-forest-100 to-forest-50">
+      <section className="py-16 md:py-24 forest-bg-gradient">
         <div className="section-container">
           <div className="text-center max-w-3xl mx-auto space-y-6">
-            <h2 className="text-3xl md:text-4xl font-serif text-forest-800">Odebírejte naše novinky</h2>
-            <p className="text-xl text-forest-700">
+            <h2 className="text-3xl md:text-4xl font-serif text-amber-100">Odebírejte naše novinky</h2>
+            <p className="text-xl amber-text-light">
               Zůstaňte s námi v kontaktu a dozvíte se o nových projektech, akcích a možnostech, jak se zapojit.
             </p>
             
@@ -248,11 +247,11 @@ const Kontakt = () => {
                 className="flex-grow px-4 py-3 border border-forest-200 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-500"
                 required
               />
-              <Button className="bg-forest-600 hover:bg-forest-700 text-white">
+              <Button className="amber-button">
                 Přihlásit se k odběru
               </Button>
             </form>
-            <p className="text-sm text-forest-600">
+            <p className="text-sm amber-text-light">
               Přihlášením souhlasíte se zpracováním údajů dle GDPR. Odhlásit se můžete kdykoli.
             </p>
           </div>
